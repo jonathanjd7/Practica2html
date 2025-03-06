@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Página de práctica de HTML">
+    <meta name="author" content="Jonathan Doicela">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--FAVICON-->
+    <link rel="icon" type="image/png" href="../HTML JD/imagenes/icono-de-favoritos.png">
+    <title>Aprendiendo HTML</title>
+    <style>
+        .rojo {
+            color: red;
+        }
+    </style>
+    <style>
+        .bloque-gris {
+            background-color: gray;
+            padding: 20px;
+            color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <header> <h1>Mi Sitio Web </h1>
+    </header>
+    <main>
+        <p>Bienvenidos</p>
+    </main>
+    <!--Para visualizar las etiquetas H1-->
+    <code>&lt;h1&gt;Título Ejemplo&lt;/h1&gt;</code>
+
+    <h2>Jonathan Doicela</h2>
+    <p>Tengo 29 años, he estudiado un grado superior de TAFAD.</p>
+    <h2>Titulos</h2>
+    <a href="https://www.youtube.com/" target="_blank"> Visitar YouTube</a>
+    <h2>Libros Favoritos</h2>
+    <h3>Novelas</h3>
+    <h4>Ciencia Ficcion</h4>
+    <h5>Peliculas</h5>
+    <h6>Musica</h6>
+    <article>                                           
+        <h2>Titulo: "Noticia del Día" </h2>
+        <section>
+            <h3>Deportes </h3>
+            <p>El equipo de futbol de la ciudad ha ganado el campeonato de liga</p>
+        </section>
+        <section>
+            <h3>Cultura</h3>
+            <p>Las entradas al teatro son gratis el fin de mes </p>
+    </article>
+    <br>
+
+    <a href="mi%20documento.html">Abrir documento</a>
+
+    <p>
+      Las mejores canciones del mundo de pueden encontrar en aplicaciones como
+      <b>Spotify</b>, <i>Amazon Music</i>, iTunes <br />
+      hay mas aplicaciones y paginas web como <u>Youtube</u> para buscar y
+      escuchar musica en streaming
+    </p>
+    <blockquote>
+      "La educacion es el arma mas poderosa para cambiar el mundo" Nelson
+      Mandela
+    </blockquote>
+    <q>Sé el cambio que quieres ver en el mundo.</q>
+    <!--Este comentario fue creado el 10 de Mayo-->
+    <br />
+    <br />
+    <a href="https://www.wikipedia.org" target="_blank">Abrir wikipedia</a>
+
+    <img src="./imagenes/img1.jpg" alt="Imagen de un paisaje natural" width="300" height="300">
+    <br>
+
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Luis</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <h3>LISTAS</h3>
+    <h4>Pasos para hacer café</h4>
+    <ol>
+        <li>Echar agua (caliente o fria) en un vaso</li>
+        <li>Echar cafe y remover, (azucar opcional) </li>
+    </ol>
+    <h4>Ingredientes Pizza</h4>
+    <ul>
+        <li>Harina</li>
+        <li>Agua</li>
+        <li>Sal</li>
+    </ul>
+
+    <div class="bloque-gris">
+        Hola, soy un div
+    </div>
+
+    <p>Este es un <span class="rojo">inline</span> texto en color rojo.</p>
+
+    <footer>
+        <p>Derechos reservados 2023</p>
+    </footer>
+
+     <form action="/procesar-datos" method="POST">
+        <label for="username">Nombre:</label>
+
+      <input type="text" id="username" name="username"  placeholder="Nombre de Usuario" required />
+      <br>
+      <label for="password">Contraseña:</label> 
+      <input type="password" id="password" name="password" placeholder="Contraseña" required />
+      <br>
+      <input type="email" name="email" placeholder="Correo Electronico" required />
+      <br>
+      <input type="checkbox" name="terminos" required />
+      <label for="terminos">Acepto los términos y condiciones</label>
+      <br>
+
+     <button type="submit">Registrarse </button>
+    
+     <br>
+     <br>
+
+      <textarea
+        name="Comentarios"
+        placeholder="Deja tu Reseña"
+        cols="30"
+        rows="10"
+      >
+      </textarea>
+    </form>
+    
+      
+  </body>
+</html>
